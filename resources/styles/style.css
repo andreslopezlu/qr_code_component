@@ -1,10 +1,65 @@
-.principal_container{
+main {
     width: 1440px;
     margin: 0 auto;
     background-color: #D5E1EF;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: center;}
+
+.principal_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    height: 497px;
+    background-color: white;
+    border-radius: 20px;
 }
+
+.qr_image{
+    background-image: url('../images/image-qr-code.png');
+    border-radius: 10px;
+    background-size: cover;
+    width: 288px;
+    height: 288px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    margin-top: 16px;
+
+}
+
+.outfit_bold{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.outfit_normal{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.main_content{
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    width: 288px;
+    text-align: center;
+    color: #1F314F;
+    height: 56px;
+    line-height: 27.72px;
+}
+
+.description{
+    text-align: center;
+    width: 256px;
+    color: #7D889E;
+    height: 57px;
+    line-height: 18.9px;
+    letter-spacing: 0.19px;
+    font-weight: 400;
+    font-style: normal;
+}
+
